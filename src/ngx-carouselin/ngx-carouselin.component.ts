@@ -53,7 +53,7 @@ export class NgxCarouselinComponent implements AfterViewInit, OnInit, OnChanges 
   ngOnInit() {
     this.carouselMain = this.carouselMain1.nativeElement;
     this.carouselInner = this.carouselInner1.nativeElement;
-    this.carouselItems = this.carouselInner.getElementsByClassName('gss-carousel-item');
+    this.carouselItems = this.carouselInner.getElementsByClassName('ngx-carouselin-item');
   }
 
   ngOnChanges(changes: SimpleChanges) {
