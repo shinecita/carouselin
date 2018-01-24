@@ -23,10 +23,10 @@ export class NgxCarouselinComponent implements AfterViewInit, OnInit, OnChanges 
 
   @ViewChild('content') public contentRef: ElementRef;
 
-  @ViewChild('ngx-carouselin', { read: ElementRef })
+  @ViewChild('carouselin', { read: ElementRef })
   private carouselMain1: ElementRef;
 
-  @ViewChild('ngx-carouselin-items', { read: ElementRef })
+  @ViewChild('carouselinItems', { read: ElementRef })
   private carouselInner1: ElementRef;
 
   @Input() options: any;
@@ -57,7 +57,7 @@ export class NgxCarouselinComponent implements AfterViewInit, OnInit, OnChanges 
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    if (this.currentSlide !== undefined && !changes.currentSlide.firstChange) {
+    if (this.currentSlide !== undefined && !changes.currentSlide.isFirstChange()) {
         this.move();
         this.setFade();
       }

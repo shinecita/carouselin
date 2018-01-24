@@ -1,0 +1,23 @@
+.ngx-carouselin-item {
+  display: inline-block;
+  white-space: initial;
+  transition: transform 0.5s ease;
+
+  &.faded {
+    animation: faded 750ms;
+  }
+}
+
+@keyframes faded {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
