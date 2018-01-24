@@ -17,7 +17,7 @@ var NgxCarouselinComponent = /** @class */ (function () {
     NgxCarouselinComponent.prototype.ngOnInit = function () {
         this.carouselMain = this.carouselMain1.nativeElement;
         this.carouselInner = this.carouselInner1.nativeElement;
-        this.carouselItems = this.carouselInner.getElementsByClassName('gss-carousel-item');
+        this.carouselItems = this.carouselInner.getElementsByClassName('ngx-carouselin-item');
     };
     NgxCarouselinComponent.prototype.ngOnChanges = function (changes) {
         if (this.currentSlide !== undefined && !changes.currentSlide.isFirstChange()) {

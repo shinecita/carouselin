@@ -1,0 +1,38 @@
+{
+  "name": "ngx-carouselin",
+  "version": "0.0.1",
+  "description": "A Carousel option for Angular.",
+  "main": "bundles/ngxcarouselin.umd.js",
+  "module": "index.js",
+  "typings": "index.d.ts",
+  "keywords": [
+      "angular",
+      "angular2",
+      "angular 2",
+      "angular 4",
+      "rescarousel",
+      "ng-rescarousel",
+      "ng-resCarousel",
+      "responsive carousel",
+      "carousel",
+      "angular carousel",
+      "slider"
+  ],
+  "author": "Caro Urquhart",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/shinecita/ngx-carouselin.git"
+  },
+  "bugs": {
+      "url": "https://github.com/shinecita/ngx-carouselin/issues"
+  },
+  "readme": "https://github.com/shinecita/ngx-carouselin/blob/master/README.md",
+  "licenses": [{
+      "type": "MIT",
+      "url": "https://github.com/shinecita/ngx-carouselin/blob/master/LICENSE"
+  }],
+  "peerDependencies": {
+      "@angular/core": "^5.0.0",
+      "@angular/common": "^5.0.0"
+  }
+}
