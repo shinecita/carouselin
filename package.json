@@ -1,6 +1,6 @@
 {
   "name": "ngx-carouselin",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Carousel Helper",
   "main": "rollup.config.js",
   "dependencies": {
