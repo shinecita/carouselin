@@ -1,6 +1,7 @@
 import { AfterViewInit, ChangeDetectorRef, ElementRef, Renderer, OnInit, OnChanges, SimpleChanges } from '@angular/core';
 /**
  * Neverending Carousel
+ * // TODO add comments here
  */
 export declare class NgxCarouselinComponent implements AfterViewInit, OnInit, OnChanges {
     private ChangeDetectorRef;

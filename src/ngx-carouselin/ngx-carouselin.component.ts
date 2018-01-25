@@ -13,6 +13,7 @@ import {
 
 /**
  * Neverending Carousel 
+ * // TODO add comments here
  */
 @Component({
   selector: 'ngx-carouselin',

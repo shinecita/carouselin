@@ -6,6 +6,7 @@
 
 /**
  * Neverending Carousel
+ * // TODO add comments here
  */
 var NgxCarouselinComponent = /** @class */ (function () {
     function NgxCarouselinComponent(ChangeDetectorRef, el, renderer) {
@@ -176,4 +177,3 @@ exports.NgxCarouselinModule = NgxCarouselinModule;
 Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
-//# sourceMappingURL=ngxcarouselin.umd.js.map
