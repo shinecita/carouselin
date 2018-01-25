@@ -1,7 +1,7 @@
 {
   "name": "ngx-carouselin",
   "version": "0.0.1",
-  "description": "A Carousel option for Angular.",
+  "description": "A Carousel option for Angular 2.",
   "main": "bundles/ngxcarouselin.umd.js",
   "module": "index.js",
   "typings": "index.d.ts",

@@ -1,6 +1,7 @@
 import { ChangeDetectorRef, Component, ElementRef, Renderer, Input, ViewChild } from '@angular/core';
 /**
  * Neverending Carousel
+ * // TODO add comments here
  */
 var NgxCarouselinComponent = /** @class */ (function () {
     function NgxCarouselinComponent(ChangeDetectorRef, el, renderer) {
