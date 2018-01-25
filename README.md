@@ -22,6 +22,6 @@ Use it on a component template by passing currentSlide option
 <ngx-carouselin
   [currentSlide]="selectedSlide">
   <ngx-carousel-item *ngFor="let item of items">
-      <-- content-->
+      <!-- content-->
   </ngx-carousel-item>
 </ngx-carouselin>
