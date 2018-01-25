@@ -18,7 +18,7 @@ export class AppModule { }
 
 Use it on a component template by passing currentSlide option
 
-``` 
+```html
 <ngx-carouselin
   [currentSlide]="selectedSlide">
   <ngx-carousel-item *ngFor="let item of items">
